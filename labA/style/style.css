@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+#respuesta {
+  padding: 10px;
+}
+
+.titulo {
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+}
+
+.contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contenido .img img {
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+}
+
+.contenido .formulario {
+  height: 100px;
+  -ms-flex-item-align: baseline;
+      align-self: baseline;
+}
+
+/*ul {
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    li {
+        color: red;
+    }
+}
+*/
+/*# sourceMappingURL=style.css.map */

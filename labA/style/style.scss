@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+#respuesta {
+    padding: 10px;
+}
+.titulo {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: row;
+    .img {
+        img {
+            width: 150px;
+            height: 100px;
+            padding: 10px;
+        }
+    }
+    .formulario {
+        height: 100px;
+        align-self: baseline;
+    }
+}
+
+/*ul {
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    li {
+        color: red;
+    }
+}
+*/

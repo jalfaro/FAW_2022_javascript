@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de JavaScript</title>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    Nombre : <input type="text" id="txtNombre"><br/>
+    Saludo : <input type="text" id="txtSaludo"><br/>
+    <button onclick="saludar()">Saludar</button>
+    <p id="saludo"></p>
+    <h1>Calculadora</h1>
+    Operando 1 : <input type="number" id="operando1"><br/>
+    Operando 2 : <input type="number" id="operando2"><br/>
+    <button onclick="calculo('+')">+</button>
+    <button  onclick="calculo('-')">-</button>
+    <button  onclick="calculo('*')">*</button>
+    <button  onclick="calculo('/')">/</button>
+    <h3 id="respuesta"></h3>
+    <h1>Agregar Datos
+    </h1>
+    Nombre : <input type="text" id="txtPersona">
+    <button onclick="agregar()"> agregar</button>
+    <button onclick="buscar()">buscar</button>
+    <ul id="listado"> 
+
+    </ul> 
+    <h3 id="encontro">
+
+    </h3>
+    <!--
+    <script>
+        window.onload = function () {
+            document.getElementById("txtNombre").value = "Julio";
+            document.getElementById("txtSaludo").value = "Hola";
+        }
+        function saludar() {
+            document.getElementById("saludo").innerHTML="<b>" + document.getElementById("txtSaludo").value + "</b>"
+                + "&nbsp; <i>" + document.getElementById("txtNombre").value + "</i>";
+        }
+    </script>
+    -->
+</body>
+</html>
