@@ -1,0 +1,49 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .fotografia {
+  padding: 10px;
+}
+
+.container .fotografia img {
+  width: 150px;
+  height: 150px;
+}
+
+.container .informacion {
+  padding: 10px;
+  color: #2ecc75;
+  font-size: 20px;
+}
+
+.container ul {
+  height: 170px;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+.title {
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
